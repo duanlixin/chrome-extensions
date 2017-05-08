@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<style>
+* { margin: 0; padding: 0; }
+
+body { 
+    width: 260px; 
+    height: 120px;
+}
+#find-dist-dom,
+#set-json {
+    text-decoration: none;
+    padding: 3px;
+    color: #FFF;
+    box-shadow: 0 2px 4px 0 rgba(40,98,255,.3);
+    border-color: transparent;
+    border-radius: 4px;
+    background-color: #2962ff;
+}
+#find-dist-dom:hover,
+#set-json:hover {
+    background: #0a58cc;
+}
+#result{
+    color: red;
+}
+</style>
+</head>
+<body>
+    <div>
+        <button id="set-json">在ons.webdev.com中设置数据</button>
+        <p>在保存页面中，把之前设置好的数据填充到页面</p>
+    </div>
+    <div id="result"></div>
+    <script src="js/popup.js"></script>
+</body>
+</html>
